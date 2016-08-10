@@ -12,6 +12,7 @@ public:
     this->value=val;
     this->next=NULL;
     this->before=NULL;
+    
   }
 };
 
