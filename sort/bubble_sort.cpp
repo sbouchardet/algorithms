@@ -1,4 +1,4 @@
-#include "extruct.cpp"
+#include "structure.cpp"
 
 #include <iostream>
 
