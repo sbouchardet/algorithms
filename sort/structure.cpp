@@ -51,6 +51,15 @@ public:
 
   }
 
+  node * remove (node * node_to_remove){
+    if(node_to_remove->before == NULL) return node_to_remove->next;
+    node * bf = node_to_remove->before;
+    node * nx = node_to_remove->next;
+    bf->next = nx;
+    nx->before = bf;
+    return this;
+  }
+
   void print_all(){
     node *k=this;
     while (k != NULL) {
