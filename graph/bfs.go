@@ -3,9 +3,9 @@ package graph
 import "fmt"
 
 //BFS breadth first search
-func BFS(graph []*Node, value interface{}) {
+func BFS(root *Node, value interface{}) {
 	// n := len(graph)
-	S := []*Node{graph[0]}
+	S := []*Node{root}
 	for len(S) > 0 {
 		nodeToVisitedNow := S[0]
 		if nodeToVisitedNow.Value == value {
