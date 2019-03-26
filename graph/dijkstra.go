@@ -1,5 +1,9 @@
 package graph
 
+import (
+	"fmt"
+)
+
 type piFunc struct {
 	n  *Node
 	pi int
@@ -7,6 +11,7 @@ type piFunc struct {
 
 // FindBestPath Using Dijskstr algorithms to find bestPath
 func FindBestPath(root *Node) []*Edge {
+	fmt.Print("HI")
 	//TODO: implement algorithm.
 	return nil
 }

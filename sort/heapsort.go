@@ -117,4 +117,3 @@ func Heapsort(input []int, loglevel int) []int {
 
 	return heapS.vector
 }
-     
